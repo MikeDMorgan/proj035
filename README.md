@@ -16,4 +16,4 @@ https://github.com/CGATOxford/CGATPipelines
 The pipeline expects compressed alignment files (.bam), with files named according to the convention:
   `condition-tissue-replicate.file_suffix`
 
-It also requires a gtf file of annotations of interest.
+It also requires a gtf file of annotations of interest.  These were either downloaded from ensembl, and processed directly using the CGATPipelines script pipeline_annotations.py (protein-coding genes and miRNAs), or converted from .bed format using the script bed2gff.py in the CGAT scripts repo.
