@@ -272,7 +272,7 @@ def loadFeatureCounts(infile, outfile):
 def counts2DiffGenes(infiles, outfile):
     '''
     Perform differential expression analysis using DESeq2
-    Output MA-plots, PCA plots (1st 6 PCs), heatmap of sample
+    Output MA-plots, PCA plots (1st 2 PCs), heatmap of sample
     clustering, results table
     '''
 
