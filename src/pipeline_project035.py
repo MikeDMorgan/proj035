@@ -210,7 +210,7 @@ def buildFeatureCounts(infiles, outfile):
     featureCounts %(featurecounts_options)s
     -T %(featurecounts_threads)s
     -s %(featurecounts_strand)s
-    -g gene_id
+    -g %(featurecounts_level)s
     -b
     -a %(annotations_tmp)s
     -o %(outfile)s
